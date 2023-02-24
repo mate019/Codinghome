@@ -7,6 +7,28 @@ body {
   background: linear-gradient(180deg, #1D2F40, #314A59, #54778C, #91afc2 );
 }
 
+nav {
+  background-color: #91afc2;
+}
+
+nav ol {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ol li {
+  margin-left: 300px;
+  list-style-type: none;
+}
+
+nav ol li a {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 section {
   height: 100vh;
 }
